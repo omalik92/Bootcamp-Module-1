@@ -9,13 +9,19 @@
 
   <body>
     <!--Header ribbon web page containing  navigation links-->
-    <header class="header">
-      <h1>Hori<span class="seo">seo</span>n</h1>
+    <header id="header">
+      <h1>Hori<span id="seo">seo</span>n</h1>
       <!--Navigation bar containing navigation links-->
-      <nav>
-        <a href="#search-engine-optimization">Search Engine Optimization</a>
-        <a href="#online-reputation-management">Online Reputation Management</a>
-        <a href="#social-media-marketing">Social Media Marketing!</a>
+      <nav id="nav">
+        <a class="nav-links" href="#search-engine-optimization"
+          >Search Engine Optimization</a
+        >
+        <a class="nav-links" href="#online-reputation-management"
+          >Online Reputation Management</a
+        >
+        <a class="nav-links" href="#social-media-marketing"
+          >Social Media Marketing!</a
+        >
       </nav>
     </header>
     <!--Figure of team meeting-->
@@ -23,13 +29,13 @@
       <img
         src="./assets/images/digital-marketing-meeting.jpg"
         alt="digital marketing meeting"
-        class="hero"
+        id="marketing-meeting-image"
       />
     </figure>
     <!--Section for 3 nested articles-->
-    <section class="content">
+    <section id="content">
       <!--article 1 search engine optimisation-->
-      <article class="search-engine-optimization">
+      <article class="content-article">
         <figure>
           <img
             src="./assets/images/search-engine-optimization.jpg"
@@ -48,10 +54,7 @@
         </p>
       </article>
       <!--article 2 online reputation management-->
-      <article
-        id="online-reputation-management"
-        class="online-reputation-management"
-      >
+      <article class="content-article">
         <figure>
           <img
             src="./assets/images/online-reputation-management.jpg"
@@ -69,7 +72,7 @@
         </p>
       </article>
       <!--article 3 social media marketing-->
-      <article id="social-media-marketing" class="social-media-marketing">
+      <article class="content-article">
         <figure>
           <img
             src="./assets/images/social-media-marketing.jpg"
@@ -87,9 +90,9 @@
       </article>
     </section>
     <!--Side bar containing additonal info-->
-    <aside class="benefits">
+    <aside id="benefits">
       <!--Section 1 lead generation-->
-      <section class="benefit-lead">
+      <section class="benefits-spacing">
         <h3>Lead Generation</h3>
         <figure>
           <img
@@ -103,7 +106,7 @@
         </p>
       </section>
       <!--Section 2 brand awareness-->
-      <section class="benefit-brand">
+      <section class="benefits-spacing">
         <h3>Brand Awareness</h3>
         <figure>
           <img
@@ -117,7 +120,7 @@
         </p>
       </section>
       <!--Section 3 cost management-->
-      <section class="benefit-cost">
+      <section class="benefits-spacing">
         <h3>Cost Management</h3>
         <figure>
           <img
